@@ -1,0 +1,159 @@
+
+  * {
+    font-family:'Comic Sans MS','微軟正黑體';
+  }
+  
+  div {
+    color: rgba(10, 148, 113, 0.822);
+  }
+
+  a {
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px;
+    color: rgba(10, 148, 113, 0.822);
+    };
+  
+  h1 {
+    font-size: 28px;
+  };
+  
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  };
+    
+  .bookStyle{
+      font-size: 14px;
+      color: rgba(10, 148, 113, 0.822);
+  }
+  
+  .butn {
+  
+    background: #2dcfc2;
+    background-image: -webkit-linear-gradient(top, #2dcfc2, #43cc8a);
+    background-image: -moz-linear-gradient(top, #2dcfc2, #43cc8a);
+    background-image: -o-linear-gradient(top, #2dcfc2, #43cc8a);
+    background-image: linear-gradient(to bottom, #2dcfc2, #43cc8a);
+    
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    margin: 15px;
+    font-family: '微軟正黑體';
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .tilteLink{
+    width: 100%;
+    background: rgba(10, 148, 113, 0.822);
+    font-size: 25px;
+    height: 50px;
+    line-height:50px;
+    font-weight: bold;
+  }
+
+  .tilteLink a {
+      color: white;
+      margin-right: auto;
+      font-family:'微軟正黑體';
+    }
+
+  .tilteLink a:hover {
+    color:rgba(0, 248, 236, 0.918);
+  }
+
+  .about, .bookStyle, .courses {
+    width: 90%;
+    margin: 0px 3%;
+  }
+
+  .course {
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.basic a , .advanced a, .extreme a{
+  color:#124ceb;
+}
+
+.about p {
+  font-family: 'Comic Sans MS'
+}
+
+.drinkType {
+  text-align: center;
+  margin: 2px 10px;
+}
+.drinkTitle {
+  text-align:center;
+}
+
+.drinkTitle th {
+  text-align:center;
+}
+
+.drinkMprice {
+  text-align: center;
+}
+.drinkLprice {
+  text-align: center;
+}
+
+.drink {
+  width: 80%;
+  margin:0px auto;
+}
+
+.orderTitle{
+  color: #3498db;
+  font-size: 18px;
+  margin: 0px 0px 0px 90%;
+}
+
+.deletOrder:hover{
+  color: #323535;
+  text-decoration: line-through;
+}
+
+table
+  {
+  border-collapse:collapse;
+  width: 100%;
+  table-layout: fixed;
+  }
+
+table
+  {
+  border: 1px solid #ffffff;
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  color: #ffffff
+  }
+
+th {
+  background: -webkit-linear-gradient(left, #21a56e, #1f929c);
+  table-layout:fixed;
+}
+
+th, td {
+    padding:5px 15px;
+    border: 1px solid #ffffff;
+    }
+
+tr:hover{
+  background:-webkit-linear-gradient(left, #1d9160, #197981);
+}
